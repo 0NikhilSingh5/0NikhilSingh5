@@ -4,13 +4,13 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=3000&lines=Hi+👋+I'm+Nikhil!;" />
 </h1>
 
-<h3 align="center">A passionate software developer from Canada 🇨🇦</h3>
+<h3 align="center">A passionate software developer from Hyderabad, India</h3>
 
 <br/>
 
 <div align="center">
  
- 🔭 I’m currently working on ** CI-CD Pipeline to deploy a Video streaming app **
+ 🔭 I’m currently working on ** AWS CI-CD Pipeline to deploy a Video streaming app **
  
  🌱 I’m currently learning **Golang, Docker, Kubernetes, Shell-Scripting**
 
@@ -35,7 +35,7 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=vscode,github,git,circleci,jenkins" /><br>
+    <img src="https://skillicons.dev/icons?i=vscode,github,git,cicd,jenkins,docker,kubernetes,aws,linux" /><br>
     <img src="https://skillicons.dev/icons?i=python,golang,mysql,flask,bootstrap,html,css" /><br>
 </div>
 <br/>
