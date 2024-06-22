@@ -4,7 +4,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=3000&lines=Hi+👋+I'm+Nikh!l;" />
 </h1>
 
-<h3 align="center">A DevOps Engineer and SRE from Hyderabad, India</h3>
+<h2 align="center">A DevOps Engineer and SRE from Hyderabad, India</h2>
 
 <br/>
 
@@ -17,7 +17,7 @@
 💬 Ask me about **DevOps,AWS-Serverless,Linux/Windows Administration**
 
  </div>
- 
+ <br/><br/>
 <div align="center"> 
   <a href="mailto:singhnikhil2508@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
@@ -29,7 +29,7 @@
      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
   </a>
 </div>
-
+<br/><br/>
  
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
