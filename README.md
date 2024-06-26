@@ -29,6 +29,7 @@
 <h3 align="center">Languages-Frameworks-Tools ⚙ 🛠</h3>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=python,golang,vscode,aws,terraform,jenkins,docker,kubernetes,git,linux,powershell,mysql,flask,html,css&perline=5" /><br>
+    <img src="https://skillicons.dev/icons?i=python,golang,vscode,aws,terraform,jenkins,githubactions,docker,kubernetes,git,bitbucket,linux,powershell,mysql,flask,html,css,notion,bash,ubuntu&perline=5"/><br>
+<img src ="https://skillicons.dev/icons?i=postman,md" /><br>
 </div>
 <br/>
