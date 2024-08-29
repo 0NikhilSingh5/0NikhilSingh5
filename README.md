@@ -7,7 +7,7 @@
 <br/>
 <div align="center">
  
- 🔭 I’m currently working on : **AWS CI-CD Pipeline to deploy a Video streaming app**
+ 🔭 I’m currently working on : **Python based alarm to notify AWS users of high disk space on EC2 Servers**
  
  🌱 I’m currently learning : **Golang, Docker, Kubernetes, Shell-Scripting**
 
