@@ -3,7 +3,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=3000&lines=Hi+👋+I'm+Nikhil;" />
 </div>
 <br/>
-<h3 align="center">A DevOps Engineer and SRE from Hyderabad, India</h3>
+<h3 align="center">A Cloud Engineer, India</h3>
 <br/>
 <div align="center">
  
