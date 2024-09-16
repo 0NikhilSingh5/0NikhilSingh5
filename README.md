@@ -7,9 +7,9 @@
 <br/>
 <div align="center">
  
- 🔭 I’m currently working on : **Python based alarm to notify AWS users of high disk space on EC2 Servers**
+ 🔭 I’m currently working on : **shell script to streamline backup and restore of mySQLRDS schemas **
  
- 🌱 I’m currently learning : **Golang, Docker, Kubernetes, Shell-Scripting**
+ 🌱 I’m currently learning : **Shell-Scripting, Graphana and Powershell Automtion-Scripting **
 
 💬 Ask me about : **DevOps,AWS-Serverless,Linux/Windows Administration**
  </div>
