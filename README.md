@@ -13,11 +13,33 @@
 * ✅**Completed :** Acumatica CI/CD pipeline for customization build,backup and publish
                  (Source code coming soon)
 </div>
-<h2 align="center">⚙️ Skills</h2>
+<h2 align="center">⚙️ Tech Stack</h2>
 
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=aws,terraform,python,golang,bash,powershell,html,css,mysql,linux,jenkins,githubactions,docker,git,bitbucket,grafana&perline=08"/><br>
+<!--     <img src="https://skillicons.dev/icons?i=aws,terraform,python,golang,bash,powershell,html,css,mysql,linux,jenkins,githubactions,docker,git,bitbucket,grafana&perline=08"/><br> -->
+    <table align="center">
+    <tr>
+        <td><img src="https://skillicons.dev/icons?i=aws" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=terraform" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=python" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=golang" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=bash" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=powershell" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=html" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=css" width="50"></td>
+    </tr>
+    <tr>
+        <td><img src="https://skillicons.dev/icons?i=mysql" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=linux" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=jenkins" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=githubactions" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=docker" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=git" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=bitbucket" width="50"></td>
+        <td><img src="https://skillicons.dev/icons?i=grafana" width="50"></td>
+    </tr>
+</table>
 </div>
 <br/>
 
@@ -29,19 +51,13 @@
 </div>
 
 
+<div align="center" >
+<h2> 🌐 Connect with me</h2>
 
-<h2 align="center"> 🌐 Connect with me</h2>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nikhilsingh08)&nbsp;&nbsp;
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:0nikhilsingh5@gmail.com)&nbsp;&nbsp;
+[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/u/AdDue6292)&nbsp;&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/itsyournickk)&nbsp;&nbsp;
+[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/itsyournickkk)&nbsp;&nbsp;
 
-<div align="center" > 
-  <a  href="mailto:0nikhilsingh5@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://www.linkedin.com/in/nikhilsingh08/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="https://www.instagram.com/itsyournickk?utm_source=qr" target="_blank">
-     <img src="https://img.shields.io/badge/instagram-red?style=for-the-badge&logo=instagram&logoColor=white" target="_blank" />
-     <a href="https://x.com/itsyournickkk" target="_blank">
-     <img src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=&logoColor=white" target="_blank" />
-  </a>
 </div>
