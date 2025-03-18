@@ -9,7 +9,7 @@
 <h2 align="center">About me</h2>
   
 * 🔭**In-Progress:** Im currently working on a challenge by "Cloud Resume challenge(AWS)" by Forest Brazeal
-* 🌱**Learning :** Currently learning Golang ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=plastic&logo=go&logoColor=white)
+* 🌱**Learning :** Currently learning Ansible ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=plastic&logo=ansible&logoColor=white) 
 * ✅**Completed :** Second-Price Ad Auction – an ML-Based Bidding System! 🚀💡
 </div>
 <h2 align="center">⚙️ Tech Stack</h2>
