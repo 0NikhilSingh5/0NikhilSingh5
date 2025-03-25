@@ -58,6 +58,6 @@
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:0nikhilsingh5@gmail.com)&nbsp;&nbsp;
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/u/AdDue6292)&nbsp;&nbsp;
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/itsyournickk)&nbsp;&nbsp;
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/itsyournickkk)&nbsp;&nbsp;
+[![X](https://img.shields.io/badge/-black.svg?logo=X&logoColor=white)](https://x.com/itsyournickkk)&nbsp;&nbsp;
 
 </div>
