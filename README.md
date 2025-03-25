@@ -8,9 +8,9 @@
 <br/>
 <h2 align="center">About me</h2>
   
-* 🔭**In-Progress:** Im currently working on a challenge by "Cloud Resume challenge(AWS)" by Forest Brazeal
+* 🔭**In-Progress:** Acumatica Automated build and publish(using Python and REST)
 * 🌱**Learning :** Currently learning ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) and ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-* ✅**Completed :** Second-Price Ad Auction – an ML-Based Bidding System! 🚀💡
+* ✅**Completed :** Second-Price Ad Auction – an ML-Based Bidding System! 🚀💡 , "Cloud Resume challenge(AWS)" by Forest Brazeal 📃
 </div>
 <h2 align="center">⚙️ Tech Stack</h2>
 
