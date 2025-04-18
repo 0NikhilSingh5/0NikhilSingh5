@@ -3,12 +3,14 @@
 <div align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=2500&lines=Hi+👋+I'm+Nikhil;" />
 </div>
-
+<p align="center">
+    🌐 Check out my portfolio website: <a href="https://resume.codenickk.com" target="_blank"><b>resume.codenickk.com</b></a>
+</p>
 <p>I am an experienced <b>Solutions Architect</b> specializing in infrastructure automation and cloud optimization. Proven track record of developing automated solutions for AWS environments reducing operational costs and improving system reliability while streamlining complex workflows.</p>
 <br/>
 <h2 align="center">About me</h2>
   
-* 🔭**In-Progress:** Acumatica Automated build and publish(using Python and REST)
+* 🔭**In-Progress:** essl Biometric attendance tracker.
 * 🌱**Learning :** Currently learning ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white) and ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 * ✅**Completed :** Second-Price Ad Auction – an ML-Based Bidding System! 🚀💡 ,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   "Cloud Resume challenge(AWS)" by Forest Brazeal 📃
