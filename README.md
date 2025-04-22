@@ -58,7 +58,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nikhilsingh08)&nbsp;&nbsp;
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:0nikhilsingh5@gmail.com)&nbsp;&nbsp;
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/u/AdDue6292)&nbsp;&nbsp;
+[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://www.reddit.com/user/AdDue6292/?rdt=48963)&nbsp;&nbsp;
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/itsyournickk)&nbsp;&nbsp;
 [![X](https://img.shields.io/badge/-black.svg?logo=X&logoColor=white)](https://x.com/itsyournickkk)&nbsp;&nbsp;
 
