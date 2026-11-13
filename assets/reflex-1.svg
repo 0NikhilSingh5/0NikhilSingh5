@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="160" viewBox="0 0 400 160" role="img" aria-label="Reflex-1 picking one answer from a list: a tool to call, what someone wants, the next move in a game">
+<title>Reflex-1 picking one answer from a list: a tool to call, what someone wants, the next move in a game</title>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 13px; fill: #8B949E; }
+.s { font-size: 12px; }
+.o { fill: #DC4405; }
+.panel { fill: #DC4405; fill-opacity: .05; stroke: #8B949E; stroke-opacity: .35; }
+.f2, .f3 { opacity: 0; }
+.f1 { animation: f1 9s infinite; }
+.f2 { animation: f2 9s infinite; }
+.f3 { animation: f3 9s infinite; }
+@keyframes f1 { 0%, 30% { opacity: 1 } 33.3%, 96.7% { opacity: 0 } 100% { opacity: 1 } }
+@keyframes f2 { 0%, 30% { opacity: 0 } 33.3%, 63.3% { opacity: 1 } 66.7%, 100% { opacity: 0 } }
+@keyframes f3 { 0%, 63.3% { opacity: 0 } 66.7%, 96.7% { opacity: 1 } 100% { opacity: 0 } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+.hl { transform: translateY(20px); animation: hl 9s infinite; }
+@keyframes hl { 0%, 30% { transform: translateY(20px) } 34%, 63.3% { transform: translateY(60px) } 67.3%, 96.7% { transform: translateY(0px) } 100% { transform: translateY(20px) } }
+.ck { animation: ck 9s infinite; }
+@keyframes ck { 0%, 1% { opacity: 0 } 4%, 29% { opacity: 1 } 30.5%, 35% { opacity: 0 } 38%, 62.3% { opacity: 1 } 63.8%, 68.3% { opacity: 0 } 71.3%, 95.7% { opacity: 1 } 97.2%, 100% { opacity: 0 } }
+</style>
+<rect class="panel" x="0.5" y="0.5" width="399" height="159" rx="10"/>
+<text class="s" x="16" y="28">reflex-1 · pick one</text><text class="s" x="384" y="28" text-anchor="end">421M · cpu</text>
+<g class="hl"><rect x="12" y="66" width="376" height="20" rx="4" fill="#DC4405" fill-opacity=".14"/><rect x="12" y="66" width="3" height="20" rx="1.5" fill="#DC4405"/><text class="ck o" x="376" y="80" text-anchor="end">✓ picked</text></g>
+<g class="f1"><text class="o" x="16" y="52">“what's the weather in pune?”</text><text x="30" y="80">search_web</text><text x="30" y="100">get_weather</text><text x="30" y="120">send_email</text><text x="30" y="140">none</text></g><g class="f2"><text class="o" x="16" y="52">“where's my order?”</text><text x="30" y="80">refund</text><text x="30" y="100">cancel_order</text><text x="30" y="120">talk_to_human</text><text x="30" y="140">track_order</text></g><g class="f3"><text class="o" x="16" y="52">cactus ahead, next move?</text><text x="30" y="80">jump</text><text x="30" y="100">duck</text><text x="30" y="120">keep_running</text><text x="30" y="140">wait</text></g>
+</svg>
