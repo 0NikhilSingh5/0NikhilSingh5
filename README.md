@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/header.svg" width="100%" alt="" />
+
 <a href="https://codenickk.com">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1200&color=DC4405&center=true&vCenter=true&width=620&height=55&lines=Nikhil+Singh;Cloud+and+AI+engineer;Voice+calls+with+AI+agents;Boring+infrastructure%2C+on+purpose" alt="Nikhil Singh, cloud and AI engineer" />
 </a>
@@ -122,3 +124,5 @@ Older things, still public and still working.
 <img src="https://visitor-badge.laobi.icu/badge?page_id=0NikhilSingh5.0NikhilSingh5&title=visitors&color=DC4405" alt="Visitors" />
 
 </div>
+
+<img src="assets/footer.svg" width="100%" alt="" />
