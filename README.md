@@ -27,6 +27,11 @@ I still like my infra boring enough that the rest of the team forgets it's there
 [GoodAI Labs](https://goodailabs.com) is an AI research lab. The code is private, so this is the
 public side of what I work on.
 
+<p align="center">
+  <a href="https://colony.goodailabs.com"><img src="assets/colony.svg" width="400" alt="Colony voice call: you ask for something mid-call, the agent works on it, then tells you it is done" /></a>&nbsp;
+  <a href="https://huggingface.co/gai-labs/reflex-1"><img src="assets/reflex-1.svg" width="400" alt="Reflex-1 picking one answer from a list: a tool to call, what someone wants, the next move in a game" /></a>
+</p>
+
 #### Colony &nbsp;→&nbsp; [colony.goodailabs.com](https://colony.goodailabs.com)
 
 A personal AI agent that keeps its memory, tools and jobs from one chat to the next, and works on a
