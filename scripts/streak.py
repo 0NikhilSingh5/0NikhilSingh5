@@ -8,16 +8,18 @@ picture: the workflow commits the SVG, and the README points at the raw file.
 import json
 import os
 import urllib.request
-from datetime import date, datetime
+from datetime import date, datetime, time
+from zoneinfo import ZoneInfo
 
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 LOGIN = os.environ.get("GH_USER", "0NikhilSingh5")
+TZ = ZoneInfo(os.environ.get("STREAK_TZ", "Asia/Kolkata"))
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "streak.svg")
 
 QUERY = """
-query($login: String!) {
+query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
-    contributionsCollection {
+    contributionsCollection(from: $from, to: $to) {
       contributionCalendar {
         totalContributions
         weeks {
@@ -30,12 +32,22 @@ query($login: String!) {
 """
 
 
-def fetch_calendar() -> tuple[int, dict[str, int]]:
+def fetch_calendar() -> tuple[int, dict[str, int], date]:
     if not TOKEN:
         raise SystemExit("GH_TOKEN or GITHUB_TOKEN is required")
+    today = datetime.now(TZ).date()
+    try:
+        start = today.replace(year=today.year - 1)
+    except ValueError:  # 29 February
+        start = today.replace(year=today.year - 1, day=28)
+    variables = {
+        "login": LOGIN,
+        "from": datetime.combine(start, time.min, TZ).isoformat(),
+        "to": datetime.combine(today, time.max, TZ).isoformat(),
+    }
     request = urllib.request.Request(
         "https://api.github.com/graphql",
-        data=json.dumps({"query": QUERY, "variables": {"login": LOGIN}}).encode(),
+        data=json.dumps({"query": QUERY, "variables": variables}).encode(),
         headers={
             "Authorization": f"bearer {TOKEN}",
             "Content-Type": "application/json",
@@ -54,7 +66,7 @@ def fetch_calendar() -> tuple[int, dict[str, int]]:
         for week in calendar["weeks"]
         for day in week["contributionDays"]
     }
-    return calendar["totalContributions"], days
+    return calendar["totalContributions"], days, today
 
 
 def streaks(
@@ -149,8 +161,8 @@ def render(total: int, days: dict[str, int], today: date) -> str:
 
 
 def main() -> None:
-    total, days = fetch_calendar()
-    svg = render(total, days, date.today())
+    total, days, today = fetch_calendar()
+    svg = render(total, days, today)
     path = os.path.abspath(OUT)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as handle:

@@ -26,6 +26,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.STREAK_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
+          STREAK_TZ: Asia/Kolkata
         run: python3 scripts/streak.py
 
       - name: Commit the card
