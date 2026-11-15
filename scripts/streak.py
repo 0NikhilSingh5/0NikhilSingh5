@@ -5,8 +5,10 @@ The card is ours, so there is no third-party cache between a commit and the prof
 picture: the workflow commits the SVG, and the README points at the raw file.
 """
 
+import hashlib
 import json
 import os
+import re
 import urllib.request
 from datetime import date, datetime, time
 from zoneinfo import ZoneInfo
@@ -167,7 +169,17 @@ def main() -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as handle:
         handle.write(svg)
-    print(f"wrote {path} ({total} contributions)")
+    # GitHub proxies README images through camo, which keys on the URL. Bump the query
+    # whenever the drawing changes so the profile cannot keep serving the old card.
+    version = hashlib.sha1(svg.encode()).hexdigest()[:8]
+    readme = os.path.join(os.path.dirname(__file__), "..", "README.md")
+    with open(readme, encoding="utf-8") as handle:
+        text = handle.read()
+    text, count = re.subn(r"assets/streak\.svg(?:\?v=[0-9a-f]+)?", f"assets/streak.svg?v={version}", text)
+    if count:
+        with open(readme, "w", encoding="utf-8") as handle:
+            handle.write(text)
+    print(f"wrote {path} ({total} contributions, {version})")
 
 
 if __name__ == "__main__":

@@ -93,7 +93,7 @@ and CloudFront, with two small Python Lambdas for the visitor counter and the co
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/0NikhilSingh5/0NikhilSingh5/main/assets/streak.svg" alt="Contribution streak" />
+<img src="https://raw.githubusercontent.com/0NikhilSingh5/0NikhilSingh5/main/assets/streak.svg?v=15648c3c" alt="Contribution streak" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0NikhilSingh5/0NikhilSingh5/output/snake-dark.svg" />
