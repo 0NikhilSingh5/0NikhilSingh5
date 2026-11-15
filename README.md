@@ -93,7 +93,7 @@ and CloudFront, with two small Python Lambdas for the visitor counter and the co
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=0NikhilSingh5&hide_border=true&background=0D1117&stroke=21262D&ring=DC4405&fire=DC4405&currStreakLabel=DC4405&sideLabels=8B949E&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&excludeDaysLabel=8B949E&v=2" alt="Contribution streak" />
+<img src="https://raw.githubusercontent.com/0NikhilSingh5/0NikhilSingh5/main/assets/streak.svg" alt="Contribution streak" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0NikhilSingh5/0NikhilSingh5/output/snake-dark.svg" />
